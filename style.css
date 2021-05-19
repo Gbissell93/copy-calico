@@ -15,7 +15,6 @@ header {
   padding-bottom: 15px;
   margin: 0 auto;
   height: auto;
-  border: wheat solid 1px;
 }
 
 .nav {
@@ -33,14 +32,14 @@ main {
   justify-content: center;
   align-items: center;
   width: 90%;
-  border: solid springgreen 1px;
+
   height: auto;
 }
 
 .logo {
   max-width: 1270px;
   padding: 0 7px;
-  border: steelblue solid 1px;
+
   height: fit-content;
   width: 200px;
   height: 162px;
@@ -128,4 +127,17 @@ li {
   padding: 24px;
   border-radius: 10px;
   font-size: 100%;
+}
+
+.monster-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.monster-button {
+  background-color: rgb(129, 171, 129, 0.7);
+  padding: 5px 10px;
+  border-color: rgb(129, 171, 129, 0.7);
+  border-radius: 10px;
 }
