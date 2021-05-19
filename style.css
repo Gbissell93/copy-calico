@@ -122,7 +122,7 @@ li {
   flex-direction: column;
   box-shadow: 0 1px 3px rgb(0 0 0 / 50%);
   width: 332px;
-  min-height: 322px;
+  min-height: 200px;
   align-items: center;
   margin: 0 12px;
   padding: 24px;
